@@ -9,7 +9,7 @@ To install the Watsor chart with default options:
 ```bash
 helm repo add asmirnou https://asmirnou.github.io/watsor-helm-chart
 helm repo update
-helm install asmirnou/watsor
+helm install watsor asmirnou/watsor
 ```
 
 ## Installation
@@ -19,10 +19,7 @@ helm install asmirnou/watsor
 1. Deploy with helm:
 
     ```bash
-    helm install \
-      --name your-release \
-      --values your-values.yaml \
-      asmirnou/watsor
+    helm install watsor asmirnou/watsor --values your-values.yaml
     ```
 
 ## Configuration
