@@ -27,7 +27,7 @@ helm install asmirnou/watsor
 
 ## Configuration
 
-See [values.yaml](values.yaml) for details.
+See [values.yaml](https://github.com/asmirnou/watsor-helm-chart/blob/master/values.yaml) for details.
 
 |              Parameter       |                    Description                             |                     Default                      |
 | ---------------------------- | ---------------------------------------------------------- | ------------------------------------------------ |
